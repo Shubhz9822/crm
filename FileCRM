@@ -9,7 +9,6 @@ driver.get("https://demo.actitime.com/login.do");
 WebElement element = driver.findElement(By.id("username"));
 		
 driver.navigate().refresh();           
-		//After refreshing the address of the element gets changed that's why we get StaleElementReferenceException 
-
+		
 element.sendKeys("admin");   
-		//StaleElementReferenceException: stale element reference: element is not attached to the page document
+		
