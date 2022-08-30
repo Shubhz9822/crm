@@ -10,5 +10,7 @@ WebElement element = driver.findElement(By.id("username"));
 		
 driver.navigate().refresh();           
 		
-element.sendKeys("admin");   
+element.sendKeys("admin");  
+
+driver.get("https:wwww.google.com/")
 		
